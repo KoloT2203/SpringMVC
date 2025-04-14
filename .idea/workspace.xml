@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
         <option value="Interface" />
       </list>
     </option>
@@ -46,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Tomcat Server.Tomcat 9.0.104.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Колот/IdeaProjects/PP_2_2_1_spring_hibernat/2.2.1. spring_hibernate/src/main/java/hiber/service/UserServiceImp.java",
+    "last_opened_file_path": "C:/Users/Колот/IdeaProjects/PP_1_1_3-4_JDBC_Hibernate/src/main/java/jm/task/core/jdbc/util/Util.java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -179,7 +179,12 @@
       <workItem from="1744455793955" duration="9736000" />
       <workItem from="1744471596805" duration="6930000" />
       <workItem from="1744480199862" duration="3000" />
-      <workItem from="1744480357402" duration="649000" />
+      <workItem from="1744480357402" duration="2051000" />
+      <workItem from="1744484782087" duration="28000" />
+      <workItem from="1744484828199" duration="14000" />
+      <workItem from="1744484900227" duration="808000" />
+      <workItem from="1744613264487" duration="7000" />
+      <workItem from="1744614591308" duration="3476000" />
     </task>
     <servers />
   </component>
