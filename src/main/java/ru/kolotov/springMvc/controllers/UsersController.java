@@ -5,16 +5,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import ru.kolotov.springMvc.models.User;
-import ru.kolotov.springMvc.service.UserService;
+import ru.kolotov.springMvc.service.UserServiceInterface;
 
 @Controller
 @RequestMapping("/user")
 public class UsersController {
 
-    private final UserService userService;
+    private final UserServiceInterface userService;
 
     @Autowired
-    public UsersController(UserService userService) {
+    public UsersController(UserServiceInterface userService) {
         this.userService = userService;
     }
 

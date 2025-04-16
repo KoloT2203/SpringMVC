@@ -2,6 +2,7 @@ package ru.kolotov.springMvc.service;
 
 import org.springframework.stereotype.Service;
 import ru.kolotov.springMvc.Dao.UserDao;
+import ru.kolotov.springMvc.Dao.UserDaoInterface;
 import ru.kolotov.springMvc.models.User;
 
 import java.util.List;
@@ -9,9 +10,9 @@ import java.util.List;
 @Service
 public class UserService implements UserServiceInterface {
 
-    private final UserDao userDao;
+    private final UserDaoInterface userDao;
 
-    public UserService(UserDao userDao){
+    public UserService(UserDaoInterface userDao){
         this.userDao = userDao;
     }
 

@@ -1,10 +1,19 @@
 package ru.kolotov.springMvc.models;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name="users")
 public class User {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+    @Column
     private String name;
+    @Column
     private String lastName;
+    @Column
     private int age;
 
     public User() {}
